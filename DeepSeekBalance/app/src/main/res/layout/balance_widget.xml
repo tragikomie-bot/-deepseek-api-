@@ -1,0 +1,6 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@drawable/widget_bg">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="DeepSeek  /  账户余额" android:textColor="#B8C6E9" android:textSize="12sp" />
+    <TextView android:id="@+id/widget_amount" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:gravity="center_vertical" android:text="—" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="28sp" android:maxLines="2" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="16sp" android:autoSizeMaxTextSize="28sp" />
+    <TextView android:id="@+id/widget_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="打开 App 设置 API Key" android:textSize="11sp" android:textColor="#B8C6E9" android:maxLines="2" android:ellipsize="end" />
+    <TextView android:id="@+id/widget_refresh" android:layout_width="match_parent" android:layout_height="40dp" android:gravity="center_vertical|end" android:text="↻  刷新余额" android:textSize="13sp" android:textColor="#B8F2DA" android:contentDescription="立即刷新 DeepSeek 余额" />
+</LinearLayout>
